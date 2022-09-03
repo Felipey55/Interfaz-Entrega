@@ -274,6 +274,7 @@ public class Inter extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(127, 140, 141));
     }//GEN-LAST:event_jPanel3MouseEntered
 
+    
     private void jPanel3MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MouseExited
         // TODO add your handling code here:
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
