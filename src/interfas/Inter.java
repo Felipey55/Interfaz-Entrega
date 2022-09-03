@@ -82,8 +82,17 @@ public class Inter extends javax.swing.JFrame {
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.PAGE_START);
 
+        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Opciones\n"));
         jPanel3.setToolTipText("");
+        jPanel3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jPanel3MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                jPanel3MouseExited(evt);
+            }
+        });
 
         jButton3.setText("Agregar");
         jButton3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -259,6 +268,16 @@ public class Inter extends javax.swing.JFrame {
         // TODO add your handling code here:
         txtNumero.setBackground(new java.awt.Color(255, 255, 255));
     }//GEN-LAST:event_txtNumeroMouseExited
+
+    private void jPanel3MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MouseEntered
+        // TODO add your handling code here:
+        jPanel3.setBackground(new java.awt.Color(127, 140, 141));
+    }//GEN-LAST:event_jPanel3MouseEntered
+
+    private void jPanel3MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MouseExited
+        // TODO add your handling code here:
+        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
+    }//GEN-LAST:event_jPanel3MouseExited
 
     /**
      * @param args the command line arguments
