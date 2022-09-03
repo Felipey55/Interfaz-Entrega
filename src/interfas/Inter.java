@@ -46,7 +46,6 @@ public class Inter extends javax.swing.JFrame {
 
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        txtNumero.setBackground(new java.awt.Color(0, 255, 204));
         txtNumero.setFont(new java.awt.Font("Tempus Sans ITC", 0, 24)); // NOI18N
         txtNumero.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
