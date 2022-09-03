@@ -46,6 +46,7 @@ public class Inter extends javax.swing.JFrame {
 
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        txtNumero.setBackground(new java.awt.Color(0, 255, 204));
         txtNumero.setFont(new java.awt.Font("Tempus Sans ITC", 0, 24)); // NOI18N
         txtNumero.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -78,7 +79,7 @@ public class Inter extends javax.swing.JFrame {
                 ResultadoMouseExited(evt);
             }
         });
-        jPanel2.add(Resultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 327, 150));
+        jPanel2.add(Resultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 327, 150));
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.PAGE_START);
 
@@ -280,6 +281,9 @@ public class Inter extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
     }//GEN-LAST:event_jPanel3MouseExited
 
+    
+    
+    
     /**
      * @param args the command line arguments
      */
