@@ -46,6 +46,7 @@ public class Inter extends javax.swing.JFrame {
 
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        txtNumero.setBackground(new java.awt.Color(34, 112, 147));
         txtNumero.setFont(new java.awt.Font("Tempus Sans ITC", 0, 24)); // NOI18N
         txtNumero.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -65,9 +66,9 @@ public class Inter extends javax.swing.JFrame {
                 txtNumeroKeyTyped(evt);
             }
         });
-        jPanel2.add(txtNumero, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 327, 100));
+        jPanel2.add(txtNumero, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 327, 90));
 
-        Resultado.setBackground(new java.awt.Color(255, 255, 255));
+        Resultado.setBackground(new java.awt.Color(34, 112, 147));
         Resultado.setFont(new java.awt.Font("Segoe Script", 3, 36)); // NOI18N
         Resultado.setOpaque(true);
         Resultado.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -78,12 +79,13 @@ public class Inter extends javax.swing.JFrame {
                 ResultadoMouseExited(evt);
             }
         });
-        jPanel2.add(Resultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 327, 150));
+        jPanel2.add(Resultado, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 327, 160));
 
         getContentPane().add(jPanel2, java.awt.BorderLayout.PAGE_START);
 
-        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Opciones\n"));
+        jPanel3.setBackground(new java.awt.Color(34, 112, 147));
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Opciones\n", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI Black", 0, 12), new java.awt.Color(255, 218, 121))); // NOI18N
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
         jPanel3.setToolTipText("");
         jPanel3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -94,6 +96,7 @@ public class Inter extends javax.swing.JFrame {
             }
         });
 
+        jButton3.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
         jButton3.setText("Agregar");
         jButton3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -110,6 +113,7 @@ public class Inter extends javax.swing.JFrame {
         });
         jPanel3.add(jButton3);
 
+        jButton4.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
         jButton4.setText("Mostrar");
         jButton4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -126,6 +130,7 @@ public class Inter extends javax.swing.JFrame {
         });
         jPanel3.add(jButton4);
 
+        jButton1.setFont(new java.awt.Font("Segoe UI Black", 0, 12)); // NOI18N
         jButton1.setText("Ordenar");
         jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
@@ -251,33 +256,33 @@ public class Inter extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1MouseExited
 
     private void ResultadoMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ResultadoMouseEntered
-        Resultado.setBackground(new java.awt.Color(211, 84, 0));      // TODO add your handling code here:
+        Resultado.setBackground(new java.awt.Color(255, 121, 63));      // TODO add your handling code here:
     }//GEN-LAST:event_ResultadoMouseEntered
 
     private void ResultadoMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ResultadoMouseExited
         // TODO add your handling code here:
-        Resultado.setBackground(new java.awt.Color(255, 255, 255));
+        Resultado.setBackground(new java.awt.Color(34,112,147));
     }//GEN-LAST:event_ResultadoMouseExited
 
     private void txtNumeroMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txtNumeroMouseEntered
         // TODO add your handling code here:
-        txtNumero.setBackground(new java.awt.Color(241, 196, 15));
+        txtNumero.setBackground(new java.awt.Color(255, 121, 63));
     }//GEN-LAST:event_txtNumeroMouseEntered
 
     private void txtNumeroMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_txtNumeroMouseExited
         // TODO add your handling code here:
-        txtNumero.setBackground(new java.awt.Color(255, 255, 255));
+        txtNumero.setBackground(new java.awt.Color(34,112,147));
     }//GEN-LAST:event_txtNumeroMouseExited
 
     private void jPanel3MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MouseEntered
         // TODO add your handling code here:
-        jPanel3.setBackground(new java.awt.Color(127, 140, 141));
+        jPanel3.setBackground(new java.awt.Color(255, 121, 63));
     }//GEN-LAST:event_jPanel3MouseEntered
 
     
     private void jPanel3MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel3MouseExited
         // TODO add your handling code here:
-        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel3.setBackground(new java.awt.Color(34,112,147));
     }//GEN-LAST:event_jPanel3MouseExited
 
     
